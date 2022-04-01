@@ -4,6 +4,7 @@
     sans-serif;
     --secondary-fong:'Raleway',
     sans-serif;
+    --letter-spacing-main: 0.03em;
 }
 .list {
     list-style: none;
@@ -15,7 +16,8 @@
 
 body {
 font-family: var(--main-font);
-color: var(--accent-color)
+color: var(--accent-color);
+letter-spacing: var(--letter-spacing-main);
 }
 /*================= components ===============*/
 .modal-btn {
@@ -28,15 +30,15 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 
-    /*position: absolute;
+   /*position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
-top: 430px;
+top: 430px;*/
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;*/
+border-radius: 4px;
 cursor: pointer;
 }
 
@@ -45,7 +47,6 @@ font-family: var(--secondary-fong);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
 color: #000000;
 }
 
@@ -57,11 +58,12 @@ font-family: var(--secondary-fong);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
-/*не видно на белом фоне
-color: #FFFFFF;*/
+color: #FFFFFF;
 }
 
+.footer {
+    background-color: #2F303A;
+}
 /*================= /components ===============*/
 /*================= HEADER ===============*/
 
@@ -71,6 +73,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: #212121;;
 }
 
 .menu-link:hover,
@@ -83,6 +86,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: var(--accent-color);
 }
 
 .contact-phone:hover,
@@ -95,6 +99,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: var(--accent-color);
 }
 
 .contact-mail:hover,
@@ -119,30 +124,26 @@ text-transform: uppercase;
 color: #FFFFFF*/;
 }
 /*================= /HERO ===============*/
-/*================= WY ME ===============*/
+/*================= WY WE ===============*/
 .why-we-title {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
 
 .why-we-text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 }
-/*================= /WY ME ===============*/
+/*================= /WY WE ===============*/
 /*================= WHAT TO DO ===============*/
 .description {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 /*text-align: center;*/
-letter-spacing: 0.03em;
 color: #212121;
 }
 /*================= /WHAT TO DO ===============*/
@@ -152,32 +153,29 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 /*text-align: center;*/
-letter-spacing: 0.03em;
 color: #212121;
 }
 
 .team-position {
-font-weight: 400;/*нужно указывать или нет?*/
 font-size: 16px;
 line-height: 1.19;
 /*text-align: center;*/
-letter-spacing: 0.03em;
 }
 /*================= /TEAM ===============*/
 /*================= FOOTER ===============*/
 .address {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
+font-style: normal;
 }
-/*не видно на белом фоне
+
 .map {
     color: #FFFFFF;
 }
+
 .mail-phone{
     color: rgba(255, 255, 255, 0.6);
-}*/
+}
 /*================= /FOOTER ===============*/
 
 /*================= PRT-BODY ===============*/
@@ -191,18 +189,16 @@ letter-spacing: 0.03em;
     border-radius: 4px;
 }
 
-.prt-title {
+.portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.prt-text {
-    font-weight: 400;
+.portfolio-text {
     font-size: 16px;
     line-height: 1.88; 
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /*================= /PRT-BODY ===============*/
