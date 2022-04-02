@@ -227,4 +227,8 @@ color: #FFFFFF*/
   line-height: 1.88;
   color: var(--accent-color);
 }
+
+.portfolio-card {
+  background-color: var(--white-color);
+}
 /*================= /PRT-BODY ===============*/
